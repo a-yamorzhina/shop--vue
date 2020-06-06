@@ -10,71 +10,61 @@
     <title>Интернет-магазин</title>
 </head>
 <body>
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <div id="app">
-<header>
-    <a href="index.html" class="logo">
-        <svg class="logo-svg" height="100" width="60" viewBox="0 0 510 510" xmlns="http://www.w3.org/2000/svg"
-             xmlns:xlink="http://www.w3.org/1999/xlink">
-            <linearGradient id="SVGID_1_" gradientTransform="matrix(-1 0 0 1 273.535 0)"
-                            gradientUnits="userSpaceOnUse"
-                            x1="-150.076" x2="-11.6" y1="211.162"
-                            y2="287.973">
-                <stop offset="0" stop-color="#28a265"/>
-                <stop offset="1" stop-color="#28895e"/>
-            </linearGradient>
-            <linearGradient id="lg1">
-                <stop offset="0"
-                      stop-color="#108372"
-                      stop-opacity="0"/>
-                <stop offset="1" stop-color="#006837"/>
-            </linearGradient>
-            <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse"
-                            x1="337.313" x2="266.231" xlink:href="#lg1"
-                            y1="213.47" y2="170.612"/>
-            <linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="87.128" x2="225.617" y1="209.796"
-                            y2="286.614">
-                <stop offset="0" stop-color="#7faef4"/>
-                <stop offset="1" stop-color="#4c8df1"/>
-            </linearGradient>
-            <linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="99.999" x2="99.999" y1="432.061"
-                            y2="503.306">
-                <stop offset="0" stop-color="#4256ac" stop-opacity="0"/>
-                <stop offset="1" stop-color="#1b1464"/>
-            </linearGradient>
-            <linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="410.001" x2="410.001" xlink:href="#lg1"
-                            y1="419.506"
-                            y2="454.067"/>
-            <path d="m189.015 81.215 60.687 146.186 5.306 12.786 73.655 178.182c13.617 32.943 40.38
+    <header>
+        <a href="index.html" class="logo">
+            <svg class="logo-svg" height="100" width="60" viewBox="0 0 510 510" xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                <linearGradient id="SVGID_1_" gradientTransform="matrix(-1 0 0 1 273.535 0)"
+                                gradientUnits="userSpaceOnUse"
+                                x1="-150.076" x2="-11.6" y1="211.162"
+                                y2="287.973">
+                    <stop offset="0" stop-color="#28a265"/>
+                    <stop offset="1" stop-color="#28895e"/>
+                </linearGradient>
+                <linearGradient id="lg1">
+                    <stop offset="0"
+                          stop-color="#108372"
+                          stop-opacity="0"/>
+                    <stop offset="1" stop-color="#006837"/>
+                </linearGradient>
+                <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse"
+                                x1="337.313" x2="266.231" xlink:href="#lg1"
+                                y1="213.47" y2="170.612"/>
+                <linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="87.128" x2="225.617" y1="209.796"
+                                y2="286.614">
+                    <stop offset="0" stop-color="#7faef4"/>
+                    <stop offset="1" stop-color="#4c8df1"/>
+                </linearGradient>
+                <linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="99.999" x2="99.999" y1="432.061"
+                                y2="503.306">
+                    <stop offset="0" stop-color="#4256ac" stop-opacity="0"/>
+                    <stop offset="1" stop-color="#1b1464"/>
+                </linearGradient>
+                <linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="410.001" x2="410.001" xlink:href="#lg1"
+                                y1="419.506"
+                                y2="454.067"/>
+                <path d="m189.015 81.215 60.687 146.186 5.306 12.786 73.655 178.182c13.617 32.943 40.38
                             53.555 69.535 53.555h98.73c9.837 0 16.14-13.375 11.539-24.486l-160.415-387.358c-5.625-13.539-16.637-21.003-28.632-21.003h-130.029c-11.258
                             0-7.991 23.818-.376 42.138z" fill="url(#SVGID_1_)"/>
-            <path d="m249.702 227.401 5.306 12.786.01.025 231.712 231.712h10.198c9.837
+                <path d="m249.702 227.401 5.306 12.786.01.025 231.712 231.712h10.198c9.837
                             0 16.14-13.375 11.539-24.486l-160.415-387.358c-5.625-13.539-16.637-21.003-28.632-21.003h-130.029c-11.258 0-7.991
                             23.818-.377 42.138z" fill="url(#SVGID_2_)"/>
-            <path d="m356.774 81.142c-7.647-18.278-28.174-18.247-35.788.073l-60.687
+                <path d="m356.774 81.142c-7.647-18.278-28.174-18.247-35.788.073l-60.687
                             146.186-5.306 12.786-73.655 178.182c-13.617 32.943-40.38 53.555-69.535 53.555h-98.73c-9.837
                             0-16.14-13.375-11.539-24.486l160.414-387.358c5.625-13.539 16.637-22.003 28.632-22.003h130.028c11.258 0
                             21.591 7.941 26.864 20.654l.557 1.35z" fill="url(#SVGID_3_)"/>
-            <path d="m32.267 373.226-30.733 74.211c-4.601
+                <path d="m32.267 373.226-30.733 74.211c-4.601
                             11.111 1.702 24.486 11.539 24.486h98.73c29.155 0 55.917-20.612 69.535-53.555l18.661-45.143h-167.732z"
-                  fill="url(#SVGID_4_)"/>
-            <path d="m328.662 418.368c13.618 32.943 40.38 53.555 69.535 53.555h98.73c9.837 0 16.14-13.375
+                      fill="url(#SVGID_4_)"/>
+                <path d="m328.662 418.368c13.618 32.943 40.38 53.555 69.535 53.555h98.73c9.837 0 16.14-13.375
             11.539-24.486l-30.733-74.211h-167.731z" fill="url(#SVGID_5_)"/>
-        </svg>
-    </a>
-    <div class="search">
-        <label class="label-search" for="search"><input type="search" class="search-input" id="search" name="search">
-            <button type="button" class="search-btn" onclick="search()"><svg  class="search-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                 viewBox="0 0 511.999 511.999" xml:space="preserve">
-		<path d="M508.874,478.708L360.142,329.976c28.21-34.827,45.191-79.103,45.191-127.309c0-111.75-90.917-202.667-202.667-202.667
-			S0,90.917,0,202.667s90.917,202.667,202.667,202.667c48.206,0,92.482-16.982,127.309-45.191l148.732,148.732
-			c4.167,4.165,10.919,4.165,15.086,0l15.081-15.082C513.04,489.627,513.04,482.873,508.874,478.708z M202.667,362.667
-			c-88.229,0-160-71.771-160-160s71.771-160,160-160s160,71.771,160,160S290.896,362.667,202.667,362.667z"/>
-</svg></button>
-            <!--            TODO: функция search() в новом файле или как или что вообще-->
-        </label>
-    </div>
-    <span onclick="showModal()">
+            </svg>
+        </a>
+
+        <search @filter-search="filter"></search>
+
+        <span @click="showModal()">
             <button class="btn btn-cart" type="button">
                 <svg class="btn-cart-svg" height="20px" viewBox="-3 0 512 512" width="20px"
                      xmlns="http://www.w3.org/2000/svg">
@@ -103,31 +93,33 @@
             </button>
         </span>
 
-</header>
+    </header>
 
-<main>
-    <div class="products">
-        <div class="product-item" v-for="product in allProducts" :key="product.id_product">
-            <img class="product-img" alt="img" :src="product.img" width="300">
-            <h3>{{product.product_name}}</h3>
-            <p class="price">{{product.price}}</p>
-            <button class="buy-btn btn" @click="clickBasket(product.id_product)">Купить</button>
+    <main>
+        <div class="products">
+            <div class="product-item" v-for="product of filtered" :key="product.id_product">
+                <img class="product-img" alt="img" :src="imgProduct" width="300">
+                <h3>{{product.product_name}}</h3>
+                <p class="price">{{product.price}}</p>
+                <button class="buy-btn btn" @click="addProduct(product), sendNotification()">Купить</button>
+            </div>
         </div>
-    </div>
 
-    <div class="notification-wrap">
+        <div class="notification-wrap">
+            <div class="notification" v-for="notification in notifications">
+            <p class="added">{{notification}}</p>
+            <a @click="closeNotification()" title="Close" class="close close-not">×</a>
+            </div>
+        </div>
 
+    </main>
 
-    </div>
-
-</main>
-
-    <div id="myModal" class="modal">
+    <div id="myModal" class="modal show" v-if="isModalShow">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <h3 class="modal-title">Корзина</h3>
-                    <a onclick="closeModal()" title="Close" class="close">×</a>
+                    <a @click="closeModal()" title="Close" class="close">×</a>
                 </div>
                 <div class="modal-body">
 
@@ -140,18 +132,19 @@
                             <p class="cart-quantity bold">Количество</p>
                         </div>
 
-                        <div id="cart-product">
+                        <basket :basket="basket" @add-product="addProduct" @del-product="delProduct"></basket>
 
-                        </div>
                         <div id="total">
 
                         </div>
 
                         <div class="cart-buttons">
                             <input class="btn modal-btn clean" type="button" value="Очистить корзину"
-                                   onclick="clearBasket()">
-                            <input class="btn modal-btn checkout" type="button" value="Оформить заказ" onclick="checkout()">
+                                   @click="clearBasket()" :disabled="basket.length < 1">
+                            <input class="btn modal-btn checkout" type="button" value="Оформить заказ"
+                                   @click="checkout()" :disabled="basket.length < 1">
                         </div>
+
                     </div>
 
                 </div>
@@ -159,44 +152,12 @@
         </div>
     </div>
 </div>
-
-<script>
-    let app = new Vue({
-        el: '#app',
-        data: {
-            message: 'Hello Vue!',
-            API: 'https://raw.githubusercontent.com/GeekBrainsTutorial/online-store-api/master/responses',
-            goods: [],
-            allProducts: []
-        },
-        created: function () {
-            this.render();
-        },
-        methods: {
-            _getProducts() {
-                return fetch(`${this.API}/catalogData.json`)
-                    .then(result => result.json())
-                    .catch(error => {
-                        console.log(error);
-                    })
-            },
-            render() {
-                let self = this;
-                this._getProducts()
-                    .then(data => {
-                        this.goods = [...data];
-                        for (let product of this.goods) {
-                            self.allProducts.push(product);
-                        }
-
-                        console.log(self.allProducts);
-                    });
-            },
-            clickBasket() {
-
-            }
-        }
-    })
-</script>
+<script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+        integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="js/searchComp.js"></script>
+<script src="js/cartComp.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
