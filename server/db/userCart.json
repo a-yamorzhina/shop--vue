@@ -1,0 +1,12 @@
+{
+    "amount": 3450,
+    "countGoods": 1,
+    "contents": [
+        {
+            "quantity": 1,
+            "id_product": 124,
+            "product_name": "Клавиатура",
+            "price": 3450
+        }
+    ]
+}
