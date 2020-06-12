@@ -1,0 +1,688 @@
+@font-face {
+  font-family: 'montserrat', 'arial', sans-serif;
+  src: url("../fonts/montserrat/montserrat-light.ttf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'montserrat', 'arial', sans-serif;
+  src: url("../fonts/montserrat/montserrat-regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'montserrat', 'arial', sans-serif;
+  src: url("../fonts/montserrat/montserrat-semibold.ttf");
+  font-weight: 600;
+}
+/* line 21, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\0000321}}
+body {
+  width: 100%;
+  font-family: 'montserrat', sans-serif;
+  font-weight: 400;
+}
+/* line 27, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\0000327}}
+header {
+  height: 100px;
+  -webkit-box-shadow: -1px 7px 14px -5px rgba(0, 0, 0, 0.3);
+          box-shadow: -1px 7px 14px -5px rgba(0, 0, 0, 0.3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/* line 34, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\0000334}}
+main {
+  width: 1400px;
+  margin: 0 auto;
+}
+/* line 39, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\0000339}}
+a {
+  text-decoration: none;
+}
+/* line 44, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\0000344}}
+input:focus {
+  outline: none;
+}
+/* line 48, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\0000348}}
+textarea:focus {
+  outline: none;
+}
+/* line 52, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\0000352}}
+.error-input {
+  border-color: red !important;
+}
+/* line 56, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\0000356}}
+.logo {
+  margin-left: 30px;
+}
+/* line 59, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\0000359}}
+.label-search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/* line 63, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\0000363}}
+.search-input {
+  border: none;
+  border-bottom: 2px solid #c7c2cc;
+  width: 300px;
+  line-height: 50px;
+  margin-top: 20px;
+}
+/* line 69, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\0000369}}
+.search-input:hover {
+  border-bottom: 2px solid #98939d;
+  fill: #98939d;
+}
+/* line 75, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\0000375}}
+.search-btn {
+  background: none;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  position: relative;
+}
+/* line 81, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\0000381}}
+.search-btn:focus {
+  outline: none;
+}
+/* line 86, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\0000386}}
+.search-svg {
+  fill: #c7c2cc;
+  width: 20px;
+  position: absolute;
+  top: -30px;
+}
+/* line 97, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\0000397}}
+.products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 100px;
+}
+/* line 103, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003103}}
+.product-item {
+  width: 300px;
+  max-height: 510px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: -1px 3px 30px 0px rgba(0, 0, 0, 0.16);
+  box-shadow: -1px 3px 30px 0px rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+  margin-right: 30px;
+  padding: 20px;
+}
+/* line 116, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003116}}
+.product-item:hover {
+  -webkit-box-shadow: -1px 3px 30px 0px rgba(0, 0, 0, 0.36);
+  box-shadow: -1px 3px 30px 0px rgba(0, 0, 0, 0.36);
+}
+/* line 123, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003123}}
+.product-img {
+  background-color: lightgray;
+  border-radius: 10px;
+}
+/* line 128, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003128}}
+h3,
+.price {
+  text-align: center;
+}
+/* line 133, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003133}}
+h3 {
+  font-size: 26px;
+}
+/* line 137, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003137}}
+.price {
+  font-size: 22px;
+}
+/* line 141, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003141}}
+.btn {
+  height: 100px;
+  border-radius: 10px;
+  border-width: 0px;
+  color: #FFFFFF;
+  padding: 20px;
+  background-color: #52a941;
+  box-shadow: 4px 1px 20px 0px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 4px 1px 20px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 4px 1px 20px 0px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+/* line 158, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003158}}
+.btn:hover {
+  background: #53b642;
+  text-decoration: none;
+}
+/* line 163, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003163}}
+.btn:focus {
+  outline: none;
+}
+/* line 167, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003167}}
+.btn:active {
+  outline: none;
+}
+/* line 171, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003171}}
+.btn:disabled {
+  background-color: #c7c2cc;
+  cursor: auto;
+}
+/* line 181, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003181}}
+.btn-cart-svg {
+  fill: white;
+}
+/* line 185, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003185}}
+.buy-btn {
+  height: 70px;
+}
+/* свойства модального окна по умолчанию */
+/* line 192, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003192}}
+.modal {
+  position: fixed;
+  /* фиксированное положение */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  /* цвет фона */
+  z-index: 1050;
+  opacity: 0;
+  /* по умолчанию модальное окно прозрачно */
+  -webkit-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  /* анимация перехода */
+  pointer-events: none;
+  /* элемент невидим для событий мыши */
+}
+/* при отображении модального окно */
+/* line 213, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003213}}
+.modal.show {
+  opacity: 1;
+  pointer-events: auto;
+  overflow-y: auto;
+}
+/* ширина модального окна и его отступы от экрана */
+/* line 220, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003220}}
+.modal-dialog {
+  position: relative;
+  margin: 1.75rem auto;
+  width: 700px;
+}
+/* свойства для блока, содержащего контент модального окна */
+/* line 227, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003227}}
+.modal-content {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: .3rem;
+  outline: 0;
+}
+@media (min-width: 768px) {
+  /* line 247, style.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003247}}
+  .modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  }
+}
+/* свойства для заголовка модального окна */
+/* line 254, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003254}}
+.modal-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid #eceeef;
+}
+/* line 271, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003271}}
+.modal-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.5;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+/* свойства для кнопки "Закрыть" */
+/* line 280, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003280}}
+.close {
+  float: right;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  text-decoration: none;
+}
+/* свойства для кнопки "Закрыть" при нахождении её в фокусе или наведении */
+/* line 292, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003292}}
+.close:focus,
+.close:hover {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: .75;
+}
+/* свойства для блока, содержащего основное содержимое окна */
+/* line 301, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003301}}
+.modal-body {
+  position: relative;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 30px;
+  overflow: auto;
+}
+/* line 312, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003312}}
+.cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/* line 318, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003318}}
+.cart-titles,
+.cart-products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/* line 324, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003324}}
+.cart-title {
+  border-right: 1px solid #c7c2cc;
+}
+/* line 328, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003328}}
+.cart-id_product,
+.cart-product_name,
+.cart-price,
+.cart-quantity {
+  min-width: 150px;
+  min-height: 50px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/* line 346, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003346}}
+#total {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  /* justify-content: flex-end; */
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  /* justify-content: flex-end; */
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+/* line 358, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003358}}
+.bold {
+  font-weight: 600;
+}
+/* line 363, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003363}}
+.minus {
+  fill: crimson;
+  cursor: pointer;
+  margin-right: 10px;
+}
+/* line 368, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003368}}
+.minus:hover {
+  fill: #a9122c;
+}
+/* line 373, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003373}}
+.plus {
+  fill: #52a941;
+  cursor: pointer;
+  margin-left: 10px;
+}
+/* line 378, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003378}}
+.plus:hover {
+  fill: #44883b;
+}
+/* line 383, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003383}}
+hr {
+  width: 100%;
+  color: #c7c2cc;
+  opacity: .2;
+  margin-bottom: 30px;
+}
+/* line 390, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003390}}
+.cart-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 30px;
+}
+/* line 396, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003396}}
+.modal-btn {
+  width: 210px;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 10px;
+}
+/* line 403, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003403}}
+.clean {
+  background-color: cornflowerblue;
+}
+/* line 406, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003406}}
+.clean:hover {
+  background-color: #66a4fe;
+}
+/* line 410, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003410}}
+.clean:disabled {
+  background-color: #c7c2cc;
+  cursor: auto;
+}
+/* line 416, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003416}}
+.s {
+  width: 100px;
+}
+/* line 420, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003420}}
+.notification-wrap {
+  position: absolute;
+  right: 25px;
+  top: 120px;
+}
+/* line 426, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003426}}
+.notification {
+  height: 50px;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.7);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 1px 20px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 4px 1px 20px 0 rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 20px;
+}
+/* line 440, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003440}}
+.error-notification {
+  width: 350px;
+  background-color: rgba(252, 228, 240, 0.7);
+  color: darkred;
+}
+/* line 445, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003445}}
+.success-notification {
+  width: 350px;
+  height: 70px;
+  background-color: rgba(209, 254, 227, 0.7);
+  color: darkgreen;
+}
+/* line 452, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003452}}
+.added {
+  font-size: 16px;
+  font-weight: 600;
+}
+/* line 457, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003457}}
+.close-not {
+  position: absolute;
+  right: 14px;
+  top: 14px;
+  font-weight: 400;
+  font-size: 20px;
+}
+/* line 465, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003465}}
+.h2 {
+  margin-top: 100px;
+}
+/* line 469, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003469}}
+.checkout-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/* line 474, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003474}}
+#description {
+  resize: vertical;
+  width: 300px;
+  min-height: 100px;
+}
+/* line 480, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003480}}
+.check-btn {
+  width: 330px;
+  height: 60px;
+  margin: 20px 0 0 295px;
+}
+/* line 486, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003486}}
+#name,
+#email,
+#phone,
+#description {
+  width: 300px;
+  padding: 10px;
+  font-size: 14px;
+  border-width: 1px;
+  border-color: #c7c7c7;
+  background-color: #FFFFFF;
+  color: #000000;
+  border-style: solid;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 0px 3px rgba(66, 66, 66, 0.34);
+          box-shadow: 0px 0px 3px rgba(66, 66, 66, 0.34);
+}
+/* line 502, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003502}}
+#name,
+#email,
+#phone {
+  margin-bottom: 20px;
+}
+/* line 508, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003508}}
+#name {
+  margin-left: 220px;
+}
+/* line 512, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003512}}
+#email {
+  margin-left: 110px;
+}
+/* line 515, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003515}}
+#phone {
+  margin-left: 38px;
+}
+/* line 518, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/style\.less}line{font-family:\00003518}}
+#description {
+  margin-left: 195px;
+}
+@media (max-width: 1550px) {
+  /* line 5, media.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/media\.less}line{font-family:\000035}}
+  .products {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  /* line 9, media.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/media\.less}line{font-family:\000039}}
+  .product-item:nth-child(2),
+  .product-item:nth-child(4) {
+    margin-right: 0;
+  }
+  /* line 14, media.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/media\.less}line{font-family:\0000314}}
+  .product-item:nth-child(1),
+  .product-item:nth-child(2) {
+    margin-bottom: 30px;
+  }
+  /* line 19, media.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/media\.less}line{font-family:\0000319}}
+  .product-item:nth-child(3) {
+    margin-left: 30px;
+  }
+}
+@media (max-width: 1200px) {
+  /* line 30, media.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/media\.less}line{font-family:\0000330}}
+  main {
+    width: 1000px;
+  }
+  /* line 34, media.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/media\.less}line{font-family:\0000334}}
+  .product-item:nth-child(3) {
+    margin-left: 0;
+  }
+}
+@media (max-width: 768px) {
+  /* line 47, media.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/media\.less}line{font-family:\0000347}}
+  body {
+    width: 768px;
+  }
+  /* line 51, media.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/media\.less}line{font-family:\0000351}}
+  main {
+    width: 768px;
+  }
+  /* line 55, media.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/media\.less}line{font-family:\0000355}}
+  .products {
+    width: 768px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  /* line 60, media.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/media\.less}line{font-family:\0000360}}
+  .product-item:nth-child(2),
+  .product-item:nth-child(4) {
+    margin-right: 0;
+  }
+  /* line 65, media.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/media\.less}line{font-family:\0000365}}
+  .product-item:nth-child(1),
+  .product-item:nth-child(2) {
+    margin-bottom: 30px;
+  }
+  /* line 70, media.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anastasiya\/Desktop\/FRONT-END\/JS-2 May\/shop--vue\/less\/media\.less}line{font-family:\0000370}}
+  .modal-dialog {
+    position: relative;
+    margin: 0 auto;
+    width: 500px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
